@@ -1,0 +1,119 @@
+:root {
+  --theme-green: #9EFF00;
+  --border-main: 1px solid #262626;
+  --padding-newSection: 120px 300px;
+}
+
+.home-landing {
+  position: relative;
+  min-height: 100vh;
+
+  border: var(--border-main);
+  border-top: none;
+}
+
+/* square.png */
+.bg-square {
+  position: absolute;
+  inset: 0;
+  background-image: url("/home/square.png");
+  background-repeat: repeat;
+  z-index: 1;
+}
+
+/* background-1.png */
+.bg-top {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  inset: 0;
+  background-image: url("/home/background-1.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% auto;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
+  min-height: 100vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px
+}
+
+.digital {
+  background-color: transparent;
+  font-size: 68px;
+  font-weight: 600;
+  width: 800px;
+  text-align: center;
+}
+.home-for{
+  background-color: #1B1B1B;
+  padding: 20px 36px;
+  border: var(--border-main);
+  border-radius: 12px;
+  color: #98989A;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.home-for > span{
+  background-color: transparent;
+  padding: 10px 12px;
+  background-color: #262626;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+
+.home-buttons{
+  background-color: transparent;
+  display: flex;
+  gap: 13px;
+}
+.work-btn{
+  border: var(--border-main);
+  border-radius: 10px;
+  padding: 18px 28px;
+  background-color: #1B1B1B;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+.contact-btn{
+  border: var(--border-main);
+  border-radius: 10px;
+  padding: 18px 28px;
+  background-color: var(--theme-green);
+  font-weight: 500;
+  font-size: 18px;
+  color: #262626;
+}
+.content > p{
+  position: absolute;
+  top: 700px;
+  border: var(--border-main);
+  border-radius: 100px;
+  padding: 20px 34px;
+  background-color: #191919;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.company{
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-left: var(--border-main);
+  border-right: var(--border-main);
+}
