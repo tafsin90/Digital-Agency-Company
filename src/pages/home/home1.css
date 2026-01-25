@@ -1,6 +1,7 @@
 :root {
   --theme-green: #9EFF00;
   --border-main: 1px solid #262626;
+  --head-padding: 100px 0;
 }
 
 .home-landing {
@@ -125,7 +126,7 @@
 
 .service-head {
   position: relative;
-  padding: 120px;
+  padding: var(--head-padding);
   background-color: #98989A;
   border: var(--border-main);
 }
@@ -256,7 +257,7 @@
 
 .why-head {
   position: relative;
-  padding: 120px 0;
+  padding: 100px 0;
   background-color: #98989A;
   border: var(--border-main);
 }
