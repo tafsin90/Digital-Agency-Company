@@ -52,6 +52,8 @@ footer {
     align-items: center;
     gap: 8px;
     color: #E6E6E6;
+    padding-bottom: 15px;
+    border-bottom: var(--border-main);
 }
 .copyright{
     color: #98989A;

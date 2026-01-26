@@ -39,7 +39,7 @@ function Navbar() {
                 </Link>
             </div>
 
-            <div className='nav-right'>
+            <div className='nav-right' >
                 Contact Us
             </div>
         </nav>
