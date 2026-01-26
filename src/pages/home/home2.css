@@ -322,6 +322,7 @@
 
 .contact-form{
     border: var(--border-main);
+    border-bottom: none;
     padding: 50px 180px;
     width:100%;
     color:white;
@@ -363,7 +364,6 @@
     color: #656567;
   }
 
-  /* #FDFFFA */
   .reason{
     padding:30px;
     height: 160px;
