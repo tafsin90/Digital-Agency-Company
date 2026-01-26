@@ -13,37 +13,37 @@ function Home2() {
         },
         {
             id: 2,
-            question: "How long does a typical project take?",
+            question: "How can SquareUp help my business?",
             answer: "Project timelines vary depending on the scope and complexity. A simple website might take 2-4 weeks, while a complex custom software solution could take 3-6 months. We provide detailed timelines during the initial consultation."
         },
         {
             id: 3,
-            question: "What is your pricing model?",
+            question: "What industries does SquareUp work with?",
             answer: "We offer flexible pricing models including fixed-price projects, hourly rates, and retainer agreements. Pricing depends on project scope, timeline, and specific requirements. Contact us for a customized quote."
         },
         {
             id: 4,
-            question: "Do you provide ongoing support after project completion?",
+            question: "How long does it take to complete a project with SquareUp?",
             answer: "Yes, we offer comprehensive maintenance and support packages. This includes bug fixes, updates, security patches, and technical support. We can customize a support plan that fits your needs."
         },
         {
             id: 5,
-            question: "Can you work with our existing team?",
+            question: "Do you offer ongoing support and maintenance after the project is completed?",
             answer: "Absolutely! We excel at collaborating with in-house teams. We can integrate seamlessly with your existing workflows, provide technical guidance, and work as an extension of your team."
         },
         {
             id: 6,
-            question: "What technologies do you specialize in?",
+            question: "Can you work with existing design or development frameworks?",
             answer: "We work with a wide range of modern technologies including React, Node.js, Python, mobile frameworks (React Native, Flutter), cloud platforms (AWS, Azure), and various design tools. We stay current with industry best practices."
         },
         {
             id: 7,
-            question: "How do you ensure project quality?",
+            question: "How involved will I be in the project development process?",
             answer: "We follow rigorous quality assurance processes including code reviews, automated testing, user acceptance testing, and regular client check-ins. Our team maintains high standards throughout the development lifecycle."
         },
         {
             id: 8,
-            question: "What is your process for starting a new project?",
+            question: "Can you help with website or app maintenance and updates?",
             answer: "Our process begins with a discovery call to understand your needs, followed by a detailed proposal, project planning, and kickoff meeting. We maintain transparent communication throughout the project with regular updates and milestones."
         }
     ];
@@ -242,6 +242,63 @@ function Home2() {
                         <div className='start-btn'>Start Project</div>
                     </div>
                 </div>
+
+
+                <form id='frm' className='contact-form'>
+                    <div className='identity'>
+                        <div className='inputfield'>
+                            <label>Full Name</label>
+                            <input
+                                type='text'
+                                placeholder='type here'></input>
+                        </div>
+                        <div className='inputfield'>
+                            <label>Email</label>
+                            <input
+                                type='email'
+                                placeholder='type here'></input>
+                        </div>
+                    </div>
+
+                    <div className='reason'>
+                        <h3>Why are you contacting us?</h3>
+                        <div className='why-checkbox'>
+                            <div>
+                                <input type="checkbox" />
+                                <label>web design</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>web design</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>web design</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>web design</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='budget'>
+                        <h3>Your Budget</h3>
+                        <p className="sub">Slide to indicate your budget range</p>
+                        <div className='range-wrapper'>
+                            <input type="range" />
+                            <span className="budget-values">$1000</span>
+                        </div>
+                        
+                    </div>
+                    <div className="box">
+                        <h3>Your Message</h3>
+                        <textarea placeholder="Type here"></textarea>
+                    </div>
+                    <div className='form-btn'>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
             </section>
         </div>
 
