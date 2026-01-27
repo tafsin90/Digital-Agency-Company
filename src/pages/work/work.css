@@ -1,0 +1,160 @@
+.work {
+    position: relative;
+    width: calc(100% - 324px);
+    background-color: #262626;
+    color: white;
+    overflow: hidden;
+    margin: 0 162px;
+}
+
+.work-para {
+    border: var(--border-main);
+    border-top: none;
+}
+
+/* Head / intro text reusing services styles */
+.services-head {
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-top: var(--border-main);
+}
+
+.services-head>h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.services-head>p {
+    color: #E6E6E6;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.services-head>div {
+    background-color: #262626;
+    padding: 12px;
+    border-radius: 8px;
+    width: fit-content;
+    font-size: 18px;
+}
+
+/* Work cards 2‑column grid */
+.work-cards {
+    border: var(--border-main);
+    border-top: none;
+}
+
+.workcard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: var(--border-main);
+}
+
+.work-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-right: var(--border-main);
+    border-top: var(--border-main);
+}
+
+.workcard-head {
+    min-height: 120px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #98989A;
+    padding: 30px 40px;
+    border-bottom: var(--border-main);
+    display: flex;
+    align-items: center;
+}
+
+.work-card:nth-child(2n) {
+    border-right: none;
+}
+
+
+.workcard-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 40px 40px 40px;
+}
+
+.workcard-img {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.workcard-img img {
+    width: 100%;
+    height: auto;
+}
+
+.workcard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.workcard-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.workcard-titleLink {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.workcard-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #E6E6E6;
+}
+
+.visit-btn-link {
+    background-color: #262626;
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: #98989A;
+    text-decoration: none;
+}
+
+.visit-btn-link:hover {
+    text-decoration: underline;
+    color: var(--theme-green);
+}
+
+
+.workcard-content p {
+    color: #98989A;
+    font-weight: 400;
+
+}
+
+.visit-btn {
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    border: 1px solid #333333;
+    background: #1F1F1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit-btn img {
+    height: 18px;
+    width: auto;
+    background-color: transparent;
+}
+

@@ -261,7 +261,7 @@ function Home2() {
                     </div>
 
                     <div className='reason'>
-                        <h3>Why are you contacting us?</h3>
+                        <h3>why are you contacting us?</h3>
                         <div className='why-checkbox'>
                             <div>
                                 <input type="checkbox" />
@@ -287,17 +287,18 @@ function Home2() {
                         <p className="sub">Slide to indicate your budget range</p>
                         <div className='range-wrapper'>
                             <input type="range" />
-                            <span className="budget-values">$1000</span>
+                            <input type="range" />
                         </div>
-                        
+                        <div className="budget-values">
+                            <span>$1000</span>
+                            <span>$5000</span>
+                        </div>
                     </div>
                     <div className="box">
                         <h3>Your Message</h3>
                         <textarea placeholder="Type here"></textarea>
                     </div>
-                    <div className='form-btn'>
-                        <button type="submit">Submit</button>
-                    </div>
+                    <button type="submit">Submit</button>
                 </form>
             </section>
         </div>
