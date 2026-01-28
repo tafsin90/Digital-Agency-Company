@@ -322,12 +322,15 @@
 /* FORM  */
 
 .contact-form{
-    max-width:900px;
+    
     display:flex;
     flex-direction:column;
     align-items:center;
-    color:white;
+    justify-content: center;
     font-family: sans-serif;
+    padding: 0 280px;
+    padding-top: 40px;
+    border: var(--border-main);
   }
   
   
@@ -336,6 +339,7 @@
     grid-template-columns: repeat(2,1fr);
     gap:25px;
     margin-bottom:25px;
+    width: 100%;
   }
   
   .inputfield{
@@ -365,6 +369,7 @@
 
   
   .reason{
+    width: 100%;
     background:#1a1a1a;
     padding:30px;
     border-radius:12px;
@@ -395,11 +400,9 @@
     accent-color:#9cff00;
   }
   
-  /* -----------------------------
-     BUDGET SECTION
-  ------------------------------*/
   
   .budget{
+    width: 100%;
     background:#1a1a1a;
     padding:30px;
     border-radius:12px;
@@ -440,11 +443,9 @@
     font-size:14px;
   }
   
-  /* -----------------------------
-     MESSAGE BOX
-  ------------------------------*/
-  
+
   .box{
+    width: 100%;
     background:#1a1a1a;
     padding:30px;
     border-radius:12px;
@@ -464,25 +465,19 @@
     resize:none;
     min-height:120px;
   }
-  
-  /* -----------------------------
-     SUBMIT BUTTON
-  ------------------------------*/
+
   
   button{
     display:block;
     margin:20px auto ;
-    padding:12px 40px;
+    padding:16px 40px;
     border:none;
-    border-radius:30px;
+    font-size: 16px;
+    border-radius:8px;
     background:#9cff00;
     color:black;
     font-weight:600;
     cursor:pointer;
-    transition:0.3s;
   }
   
-  button:hover{
-    transform:scale(1.05);
-  }
   
